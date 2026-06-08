@@ -1,18 +1,14 @@
 const products = [
-  { name: "Funko Pop", sellCount: 10 },
-  { name: "Mochila", sellCount: 5 },
-  { name: "Camiseta", sellCount: 20 },
-  { name: "Póster", sellCount: 15 }
+  "Camiseta de Metallica",
+  "Pantalón vaquero",
+  "Gorra de beisbol",
+  "Camiseta de Basket",
+  "Cinturón de Orión",
+  "AC/DC Camiseta",
 ];
 
-function averageSellCount(list) {
-  let total = 0;
-
-  for (let product of list) {
-    total += product.sellCount;
+for (let i = 0; i < products.length; i++) {
+  if (products[i].includes("Camiseta")) {
+    console.log(products[i]);
   }
-
-  return total / list.length;
 }
-
-console.log(averageSellCount(products));

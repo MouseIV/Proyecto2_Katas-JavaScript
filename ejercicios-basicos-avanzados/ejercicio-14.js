@@ -1,7 +1,10 @@
-const counterWords = [
+const words = [
   'code',
   'repeat',
   'eat',
+  'sleep',
+  'code',
+  'enjoy',
   'sleep',
   'code',
   'enjoy',
@@ -21,7 +24,7 @@ function repeatCounter(list, word) {
   return count;
 }
 
-console.log(repeatCounter(counterWords, 'code'));
-console.log(repeatCounter(counterWords, 'sleep'));
-console.log(repeatCounter(counterWords, 'repeat'));
-console.log(repeatCounter(counterWords, 'Diego'));
+console.log(repeatCounter(words, 'code'));
+console.log(repeatCounter(words, 'sleep'));
+console.log(repeatCounter(words, 'repeat'));
+console.log(repeatCounter(words, 'game'));
