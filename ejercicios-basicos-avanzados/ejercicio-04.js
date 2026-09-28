@@ -1,10 +1,8 @@
-const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
-
 //4.1
 const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
 
 //4.2
-aldeanos[-1]("Cervasio");
+aldeanos.push("Cervasio");
 
 //4.3
 aldeanos[0] = "Bambina";

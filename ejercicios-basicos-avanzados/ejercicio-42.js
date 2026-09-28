@@ -1,10 +1,3 @@
-const fantasticFour = [
-  "La antorcha humana",
-  "Mr. Fantástico",
-  "La mujer invisible",
-  "La cosa",
-];
-
 function swap(array, index1, index2) {
   const temp = array[index1];
   array[index1] = array[index2];
@@ -20,7 +13,7 @@ const fantasticFour = [
   "La cosa",
 ];
 
-console.log(swap(fantasticFour, 0, 3));
+console.log(swap(fantasticFour.slice, 0, 3));
 // ["La cosa", "Mr. Fantástico", "La mujer invisible", "La antorcha humana"]
 
 console.log(swap(fantasticFour, 1, 2));
